@@ -1,0 +1,15 @@
+[project]
+name = "DentistryApp"
+description = "Practical workshop for the Programming II course of the Faculty of Sciences and Engineering"
+version = "0.1.0"
+channels = ['conda-forge']
+platforms = ['linux-64', 'osx-64', 'osx-arm64', 'win-64']
+
+[dependencies]
+python = "~=3.13.0"
+ruff = "*"
+pip = "*"
+
+[pypi-dependencies]
+python-dotenv = "*"
+dentistryapp = { path = ".", editable = true }
