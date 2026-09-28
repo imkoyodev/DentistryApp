@@ -19,6 +19,7 @@ def print_menu() -> str:
     valid_options = {str(number) for number in range(1, len(OPTIONS) + 1)}
 
     while True:
+        print("=== Consultorio Doctor Chapatín ===")
         print("=== Menú de Opciones ===")
         for option in OPTIONS:
             print(option)
